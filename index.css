@@ -1,0 +1,24 @@
+/* Custom styling for Railway Challan API */
+.swagger-ui .topbar {
+    background-color: #1f4e79;
+    padding: 8px 0;
+}
+
+.swagger-ui .topbar .download-url-wrapper {
+    display: none;
+}
+
+.swagger-ui .info .title {
+    color: #1f4e79;
+}
+
+.swagger-ui .scheme-container {
+    background: #f7f7f7;
+    padding: 15px 0;
+}
+
+/* Add Railway branding */
+.swagger-ui .info .title:before {
+    content: "🚂 ";
+    font-size: 0.8em;
+}
