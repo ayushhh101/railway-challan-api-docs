@@ -19,6 +19,5 @@
 
 /* Add Railway branding */
 .swagger-ui .info .title:before {
-    content: "🚂 ";
     font-size: 0.8em;
 }
