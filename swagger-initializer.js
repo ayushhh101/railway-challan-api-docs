@@ -1,7 +1,7 @@
 window.onload = function() {
   // Initialize SwaggerUI to load the external YAML file
   window.ui = SwaggerUIBundle({
-    url: './railyway-challan-api.yaml',
+    url: './railway-challan-api.yaml',
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
@@ -34,7 +34,7 @@ window.onload = function() {
           <div style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
             <h2>🚂 Railway Challan API Documentation</h2>
             <p style="color: #d32f2f;">Failed to load API specification.</p>
-            <p>Please ensure the <code>railyway-challan-api.yaml</code> file is accessible.</p>
+            <p>Please ensure the <code>railway-challan-api.yaml</code> file is accessible.</p>
             <p>Error: ${err.message || 'Unknown error'}</p>
           </div>
         `;
@@ -42,4 +42,3 @@ window.onload = function() {
     }
   });
 };
-     
